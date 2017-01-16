@@ -30,11 +30,12 @@ for i = 1 : traningSetSize
 end
 
 % plot the positiveX
-plot(positiveX(:, 1), positiveX(:, 2), 'k+');
+plot(positiveX(:, 1), positiveX(:, 2), 'k+', 'LineWidth', 2, 'MarkerSize', 7);
+hold on;
 
 % plot the negativeX
-plot(negativeX(:, 1), negativeX(:, 2), 'ko');
-hold on;
+plot(negativeX(:, 1), negativeX(:, 2), 'ko', 'MarkerFaceColor', 'y', 'MarkerSize', 7);
+
 
 
 

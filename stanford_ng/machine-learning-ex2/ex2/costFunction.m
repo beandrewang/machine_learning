@@ -27,7 +27,7 @@ J = (1 / m) * J;
 featureNum = length(theta); % get the number of features
 
 for j = 1 : featureNum
-		grad(j) = (1 / m) * (h - y)' * X(:, j);
+    grad(j) = (1 / m) * (h - y)' * X(:, j);
 end
 
 % =============================================================
